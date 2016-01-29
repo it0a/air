@@ -1,4 +1,66 @@
-body {
+@font-face {
+    font-family: 'xTungsten';
+    src: url('fonts/Tungsten-Light.eot');
+    src: url('fonts/Tungsten-Light.otf') format('opentype'),
+    url('fonts/Tungsten-Light.woff') format('woff'),
+    url('fonts/Tungsten-Light.ttf') format('truetype'),
+    url('fonts/Tungsten-Light.svg') format('svg');
+    unicode-range: U+00-FF, U+980-9FF;
 }
 
+body {
+    background: url("../images/background_4.jpg") top center repeat fixed;
+    background-size: 100%;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    font-family: "xTungsten","仿宋";
+}
 
+.signin-form {
+    padding-top: 40px;
+}
+
+.signin-form-header {
+    padding-bottom: 20px;
+}
+
+.input-signin {
+    background-color: #222222;
+}
+
+.signin-form-header > img {
+    -webkit-animation: flip 2s;
+    animation: flip 2s;
+}
+
+@-webkit-keyframes flip {
+    from {
+        transform: rotateY(0deg)
+    }
+    to {
+        transform: rotateY(1080deg)
+    }
+}
+
+@keyframes flip {
+    from {
+        transform: rotateY(0deg)
+    }
+    to {
+        transform: rotateY(1080deg)
+    }
+}
+
+/* Fix for number slider in input type of number */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.margin-t-sm {
+    margin-top: 8px;
+}
