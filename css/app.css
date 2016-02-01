@@ -99,20 +99,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-    font-family: 'Arial', 'Helvetica', 'Helvetica Neue';
+    font-family: 'Chivo';
     font-size: 14px;
 }
 
 .alert-item-positive {
-    border-left-color: #63964A;
+    border-left-color: #447F9A;
 }
 
 .alert-item-neutral {
-    border-left-color: white;
+   border-left-color: #888888;
 }
 
 .alert-item-negative {
-    border-left-color: yellow;
+    border-left-color: #982D2D;
 }
 
 .alert-item-positive,
