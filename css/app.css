@@ -94,3 +94,30 @@ input::-webkit-inner-spin-button {
     font-size: 18px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'xTungsten';
+}
+
+.content {
+    font-family: 'Arial', 'Helvetica', 'Helvetica Neue';
+    font-size: 14px;
+}
+
+.alert-item-positive {
+    border-left-color: #63964A;
+}
+
+.alert-item-neutral {
+    border-left-color: white;
+}
+
+.alert-item-negative {
+    border-left-color: yellow;
+}
+
+.alert-item-positive,
+.alert-item-neutral,
+.alert-item-negative {
+    border-left-width: 5px;
+}
+
