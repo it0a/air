@@ -14,7 +14,7 @@ body {
     background-color: #1A1A1A;
     color: #FFFFFF;
     font-family: "xTungsten","仿宋";
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .signin-form {
@@ -85,3 +85,12 @@ input::-webkit-inner-spin-button {
 .sign-in {
     font-size: 1.4em;
 }
+
+.navbar-nav > li {
+    font-size: 24px;
+}
+
+.dropdown-menu {
+    font-size: 18px;
+}
+
