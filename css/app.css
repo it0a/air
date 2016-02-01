@@ -81,3 +81,7 @@ input::-webkit-inner-spin-button {
 .lang-flag {
     margin-left: 4px;
 }
+
+.sign-in {
+    font-size: 1.4em;
+}
